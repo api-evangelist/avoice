@@ -1,7 +1,27 @@
 aid: avoice
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avoice.png
 name: Avoice
-description: Avoice is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Avoice is an AI-native workspace for architects and engineers that automates the
+  non-design work of running an architectural practice. Its AI agents understand drawings,
+  specifications, schedules, materials, building codes, and research to generate specs, run
+  automated QA/QC quality control on specs and drawings, auto-produce door/window/finish
+  schedules and quantities, draft RFIs and submittals for construction administration, and manage
+  a client portal alongside searchable detail and material libraries. A Y Combinator Winter 2026
+  company, Avoice positions itself as the operating system for architectural practice, with firms
+  managing over $300 million in active projects using it across five countries. Avoice publishes no
+  public API, SDK, or developer documentation at this time; this profile tracks the company as a
+  network lead.
 url: https://raw.githubusercontent.com/api-evangelist/avoice/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,44 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: Winter 2026
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Architecture
+- Engineering
+- AECO
+- AI Agents
+- Design Automation
+- Specifications
+- Construction Administration
+- Productivity
+- Y Combinator
+common:
+- type: DomainSecurity
+  url: security/avoice-domain-security.yml
+- url: https://avoice.co/
+  type: Website
+- url: https://app.avoice.co/en
+  type: Login
+- url: https://www.avoice.co/blog
+  type: Blog
+- url: https://www.avoice.co/about-avoice
+  type: About
+- url: https://www.avoice.co/terms-of-services
+  type: TermsOfService
+- url: https://www.avoice.co/privacy-policy
+  type: PrivacyPolicy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
