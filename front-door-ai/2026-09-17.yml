@@ -1,0 +1,29 @@
+# Front Door AI Index — avoice — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: avoice
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: avoice.co
+  final_host: www.avoice.co
+  ownership: own
+  owner: avoice
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 6
+  band: 4
+  band_label: moderate
+  host_score: 6
+  density: 11.13
+  words: 539
+  tiers:
+    agentic: 0
+    core: 6
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 6
+    agent: 1
